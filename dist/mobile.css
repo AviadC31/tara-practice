@@ -2,12 +2,11 @@
     padding:0;
     margin: 0;
 }
+
 html {
-    display: block;
+    scroll-behavior: smooth;
 }
-head {
-    display: none;
-}
+
 body {
     direction: rtl;
     font-family: 'Rubik', sans-serif;
@@ -16,6 +15,7 @@ body {
     background-repeat: no-repeat;
     background-position: center top;
 }
+
 .container {
     position: relative;
     width: 100%;
@@ -23,14 +23,12 @@ body {
     justify-content: space-between;
 }
 
-#top{
-    z-index: 1000;
-}
 .top-text-container{
     display: flex;
     justify-content: center;
     text-align: center;
 }
+
 .top-text{
     color: #00225c;
     margin-top: 130px;
@@ -39,6 +37,7 @@ body {
     padding: 0.3vw 0;  
     width: 85%;
 }
+
 #navbar {
     position: absolute;
     top: 0px;
@@ -64,7 +63,6 @@ body {
     border-bottom-left-radius: 10px;
     transition: .3s all;
     cursor: pointer;
-    text-decoration: none;
 }
 
 #coupon-button:hover{
@@ -154,6 +152,7 @@ button {
     height: 10.5vw;
     z-index: -10;
 }
+
 #shelf{
     max-width: 100%;
     height: auto;
@@ -183,6 +182,7 @@ button {
     width: 133.6px;
     height: 313px;
 }
+
 #cow4 {
     position: absolute;
     top: 1850px;
@@ -190,6 +190,7 @@ button {
     width: 103px;
     height: 312px;
 }
+
 #cow5 {
     position: absolute;
     top: 2059px;
@@ -197,11 +198,13 @@ button {
     width: 113.6px;
     height: 330.7px;
 }
+
 #cow6 {
     position: absolute;
     top: 3354px;
     width: 100vw; 
 }
+
 #cow7 {
     position: relative;
     bottom: 0;
@@ -237,6 +240,7 @@ button {
     text-align: center;
     align-self: center;
 }
+
 .text3{
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
@@ -247,6 +251,7 @@ button {
     align-self: center;
     width: 100%;
 }
+
 .slider-text-container{
     display: flex;
     justify-content: center;
@@ -279,6 +284,7 @@ button {
     margin-top: 25vw;
     margin-bottom: 30vw;
 }
+
 #slide-container {
     position:relative;
     display: flex;
@@ -287,6 +293,7 @@ button {
     height:50px;
     transition: ease 5s;
 }
+
 .slide-off {
     float:left;
     display:block;
@@ -300,6 +307,7 @@ button {
     margin-right: 1vw;
     margin-bottom: 10vw;
 }
+
 .slide-on {
     opacity: 1;
     height: 50vw;
@@ -307,17 +315,11 @@ button {
     transform: scale(1);
     transition:all 1s;
 }
-.arrow {
-    position:absolute;
-    font-size:40px;
-    font-weight:bold;
-    cursor:pointer;
-}
   
 .output {
+    text-align:center;
     position:fixed;
     width:15%;
-    text-align:center;
 }
 
 .wrapper{
@@ -325,15 +327,11 @@ button {
     justify-content: center;
     margin-top: 20vw;
 }
+
 .shell{
     display: flex;
     flex-direction: column-reverse;
     align-items: center; 
-}
-
-.shell>div {
-    width: 48%;
-    position: relative;
 }
 
 form {
@@ -361,6 +359,8 @@ form {
 }
 
 .shell>div {
+    display: flex;
+    justify-content: center;
     width: 48%;
     position: relative;
 }
@@ -379,11 +379,6 @@ form {
     color: #00225c !important;
 }
 
-.shell>div{
-    display: flex;
-    justify-content: center;
-}
-
 .form-text p {
     font-size: 3vw;
     font-weight: 400;
@@ -393,6 +388,7 @@ form {
 .error{
     color: red;
 }
+
 .send-coupon {
     display: block;
     width: 100%;
@@ -408,10 +404,10 @@ form {
     text-align: center;
     padding: 1vw;
     width: 100%;
-    color: #fff !important;
+    color: #fff;
 }
 
-.shell>div:nth-child(1) .checkbox-wrapper {
+.checkbox-wrapper {
     width: 100%;
     display: flex;
     position: relative;
@@ -431,6 +427,7 @@ form {
     flex-direction: column-reverse;
     align-items: center; 
 }
+
 .footer-box{
     height: 350px;
     width: 580px;
@@ -438,6 +435,7 @@ form {
     margin: 7vw;
     background: #00225c;
 }
+
 .footer-mini-box{
     display: flex;
     flex-direction: column;
@@ -460,6 +458,7 @@ form {
     width: 100%;
     color: #00225c;
 }
+
 .footer-text{
     color: #00225c;
     font-size: 3.2vw;
@@ -480,7 +479,8 @@ form {
 
 .discount-title{
     display: flex;
-    justify-content: center;}
+    justify-content: center;
+}
 
 .discount-text{
     font-family: 'Rubik', sans-serif;

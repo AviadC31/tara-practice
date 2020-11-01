@@ -2,13 +2,11 @@
     padding:0;
     margin: 0;
 }
+
 html {
-    display: block;
     scroll-behavior: smooth;
 }
-head {
-    display: none;
-}
+
 body {
     direction: rtl;
     font-family: 'Rubik', sans-serif;
@@ -17,6 +15,7 @@ body {
     background-repeat: no-repeat;
     background-position: center top;
 }
+
 .container {
     margin: 0 auto;
     position: relative;
@@ -25,14 +24,12 @@ body {
     justify-content: space-between;
 }
 
-#top{
-    z-index: 1000;
-}
 .top-text-container{
     display: flex;
     justify-content: center;
     text-align: center;
 }
+
 .top-text{
     color: #00225c;
     margin-bottom: 1vw;
@@ -41,11 +38,13 @@ body {
     padding: 0.3vw 0;
     width: 60%;
 }
+
 .slider-text-container{
     display: flex;
     justify-content: center;
     text-align: center;
 }
+
 .slider-text{
     color: #00225c;
     margin-bottom: 1vw;
@@ -79,7 +78,6 @@ body {
     border-bottom-left-radius: 10px;
     transition: .3s all;
     cursor: pointer;
-    text-decoration: none;
 }
 
 #coupon-button:hover{
@@ -143,7 +141,6 @@ button {
     flex-direction: column;
 }
 
-
 .text-container{
     position: absolute;
     left: 0;
@@ -170,6 +167,7 @@ button {
     height: 10.5vw;
     z-index: -10;
 }
+
 #shelf{
     max-width: 100%;
     height: auto;
@@ -198,24 +196,28 @@ button {
     top: 70vw;
     width: 7vw;
 }
+
 #cow4 {
     position: absolute;
     left: 0;
     top: 88vw;
     width: 7vw;
 }
+
 #cow5 {
     position: absolute;
     right: 0;
     top: 3000px;
     width: 10vw;
 }
+
 #cow6 {
     position: absolute;
     left: 0;
     top: 2995px;
     width: 5vw;
 }
+
 #cow7 {
     position: relative;
     bottom: -1vw;
@@ -241,6 +243,7 @@ button {
     text-align: center;
     align-self: center;
 }
+
 .text2{
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
@@ -250,6 +253,7 @@ button {
     text-align: center;
     align-self: center;
 }
+
 .text3{
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
@@ -268,11 +272,11 @@ button {
    width: 3vw;
 }
 
- #bottom{
-     margin-top: 100px;
- }
+#bottom{
+    margin-top: 100px;
+}
 
- .wine-slider {
+.wine-slider {
     position:relative;
     max-width:1260px;
     display: flex;
@@ -281,6 +285,7 @@ button {
     margin-top: 10vw;
     margin-bottom: 10vw;
 }
+
 #slide-container {
     position:relative;
     display: flex;
@@ -291,6 +296,7 @@ button {
     margin-left: 2vw;
     margin-right: 2vw;
 }
+
 .slide-off {
     background-size:cover;
     background-position:center;
@@ -298,6 +304,7 @@ button {
     transition:all 1s;
     height: 10vw;
 }
+
 .slide-on {
     opacity: 1;
     height: 18vw;
@@ -308,9 +315,11 @@ button {
     margin: 2vw;
     cursor:pointer;
 }
+
 .error{
     color: red;
 }
+
 .output {
     position:fixed;
     width:15%;
@@ -348,12 +357,8 @@ form, .sent {
 .shell>div:nth-child(2) {
     border: 8px #00235d solid;
     border-radius: 15px;
-}
+} 
 
-.shell>div {
-    width: 48%;
-    position: relative;
-}
 form{
      visibility: visible;
 }
@@ -371,7 +376,7 @@ span.form-text p {
     margin: 1vw auto 1vw;
 }
 
-.shell>div:nth-child(1) .send-coupon button[type='submit'] {
+.send-coupon button[type='submit'] {
     border: 0;
     background: #00225c;
     box-shadow: 1px 1px 10px #fff;
@@ -385,19 +390,13 @@ span.form-text p {
     font-weight: 400;
 }
 
-.shell>div:nth-child(1) .checkbox-wrapper {
+.checkbox-wrapper {
     width: 100%;
     display: flex;
     position: relative;
     margin-top: 1vw;
     flex-direction: row-reverse;
     justify-content: flex-end;
-}
-
-
-.shell>div:nth-child(2) {
-    border: 8px #00235d solid;
-    border-radius: 15px;
 }
 
 .form-inputs select,
@@ -412,7 +411,7 @@ span.form-text p {
     text-align: center;
     padding: 0.7vw 0;
     width: 100%;
-    color: #00225c !important;
+    color: #00225c;
 }
 
 #form-img {
@@ -437,6 +436,7 @@ span.form-text p {
     display: flex;
     justify-content: center;
 }
+
 .footer-box{
     height: 20vw;
     width: 30%;
@@ -445,6 +445,7 @@ span.form-text p {
     margin-right: 0.25vw;
     background: #00225c;
 }
+
 .footer-mini-box{
     display: flex;
     flex-direction: column;
@@ -467,6 +468,7 @@ span.form-text p {
     width: 100%;
     color: #00225c;
 }
+
 .footer-text{
     color: #00225c;
     font-size: 1.6vw;
