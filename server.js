@@ -25,7 +25,7 @@ app.post('/send', function (req, res) {
 
     var mailOptions = {
         from: 'youremail@gmail.com',
-        to: 'aviadcoh1@gmail.com',
+        to: 'eli@elevate.co.il',
         subject: 'tara-test-check',
         text: `name: ${name}\nphone: ${phone}\nemail: ${email}`
     }
